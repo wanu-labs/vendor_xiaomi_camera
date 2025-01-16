@@ -1,2 +1,22 @@
 # same-process HAL files and their dependencies
-/(vendor|odm|odm/mount/camera)/lib/rfsa/adsp/libSnpe.*\.so u:object_r:same_process_hal_file:s0
+/vendor/lib64/libSnpe.*\.so                               u:object_r:same_process_hal_file:s0
+/vendor/lib/rfsa/adsp/libSnpe.*\.so                                              u:object_r:same_process_hal_file:s0
+/vendor/lib64/libSNPE\.so                                                        u:object_r:same_process_hal_file:s0
+/odm/lib64/libmialgo_ai_vision\.so                                               u:object_r:same_process_hal_file:s0
+/odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so                                 u:object_r:same_process_hal_file:s0
+/odm/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so                            u:object_r:same_process_hal_file:s0
+/odm/lib64/libalCFR\.so                                                          u:object_r:same_process_hal_file:s0
+/odm/lib64/libarcsoft.*\.so                                                      u:object_r:same_process_hal_file:s0
+/odm/lib64/libbeauty_face_interface\.so                                          u:object_r:same_process_hal_file:s0
+/vendor/lib64/libc\+\+_shared\.so                                                u:object_r:same_process_hal_file:s0
+/odm/lib64/libmi_dspp.so                                                      u:object_r:same_process_hal_file:s0
+/odm/lib64/libmi_hdr_raw.so                                                   u:object_r:same_process_hal_file:s0
+/odm/lib64/libmi_llhdr_raw.so                                                 u:object_r:same_process_hal_file:s0
+/odm/lib64/libmiai_deblur.so                                                  u:object_r:same_process_hal_file:s0
+/odm/lib64/libmiai_portraitsupernight\.so                                  u:object_r:same_process_hal_file:s0
+/odm/lib64/libmialgo.*\.so                                             u:object_r:same_process_hal_file:s0
+/odm/lib64/libmibokeh.*\.so                                              u:object_r:same_process_hal_file:s0
+/odm/lib64/libmiStereoFactoryRemapLib\.so                                  u:object_r:same_process_hal_file:s0
+/odm/lib64/libmpbase\.so                                                   u:object_r:same_process_hal_file:s0
+/odm/lib64/libsupermoon.so                                                    u:object_r:same_process_hal_file:s0
+/odm/lib64/libxmi.*\.so                                                       u:object_r:same_process_hal_file:s0
