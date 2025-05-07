@@ -7,5 +7,3 @@ get_prop(platform_app, vendor_camera_prop)
 get_prop(platform_app, vendor_fp_prop)
 get_prop(platform_app, vendor_display_prop)
 get_prop(platform_app, vendor_panel_info_prop)
-
-type vendor_panel_info_prop; 
